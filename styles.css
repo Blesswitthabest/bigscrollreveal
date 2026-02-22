@@ -1,1 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #1d1d1d;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 2rem;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  gap: 50px;             
+  padding-bottom: 80px;
+}
+
+.photo {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+  background: #e5e5e5;
+  padding: 18px;
+  border-radius: 12px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+
+  transition: transform 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.03);
+}
 
